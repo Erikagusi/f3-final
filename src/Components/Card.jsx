@@ -26,7 +26,7 @@ const Card = ({ dentist }) => {
 
       {/* Ademas deberan integrar la logica para guardar cada Card en el localStorage */}
       <Link to={'/detail/' + dentist.id}>
-        <img className="imgDoc" src='../public/images/doctor.jpg' alt="imgCardDoctor" />
+        <img className="imgDoc" src='/images/doctor.jpg' alt="imgCardDoctor" />
         <div className="datosCard">
           <h3>{dentist.name}</h3>
           <h3>{dentist.username}</h3>

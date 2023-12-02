@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
 
       <div className='imgNavr'>
-        <img src="./public/images/iOdonto.jpg" alt="" width={200} />
+        <img src="/images/iOdonto.jpg" alt="" width={200} />
       </div>
 
       <div className='linksHome'>
